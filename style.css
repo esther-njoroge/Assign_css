@@ -1,0 +1,124 @@
+#nav{
+    /* margin: 10%; */
+    /* justify-content: space-between; */
+    display: flex;
+    gap: 5%;
+    
+}
+#photo{
+    position: relative;
+}
+#text{
+    position: absolute;
+    top: 30%;
+    margin-left: 320px;
+}
+#move{
+    display: flex;
+    gap: 90px;
+}
+#list{
+    display: flex;
+    gap: 110px;
+}
+#clip{
+    display: flex;
+    gap: 30%;
+}
+.container{
+    position: relative;
+}
+.word{
+    position: absolute;
+    top: 30%;
+}
+.par{
+    bottom: 30%;
+}
+#both{
+    display: flex;
+    gap: 15%;
+}
+.forms{
+    display: flex;
+    gap: 10%;
+}
+#quotes{
+    display: flex;
+    gap: 10%;
+}
+#footer{
+    display: flex;
+    gap: 10%;
+    background-color: black;
+    color: white;
+}
+#abovef{
+    border: solid 1px;
+    padding: 15px;
+    height: 150px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#testimonials{
+    margin: 5%;
+}
+.heading{
+    font-size: 40px;
+    color: white;
+}
+#book{
+    /* border: solid 1px; */
+    background-color: orange;
+    width: 20%;
+    height: 180px;
+
+}
+#table{
+    /* border: solid 1px; */
+    /* background-color: rgb(24, 24, 231); */
+}
+.buton{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+
+}
+#logo{
+    margin: 10%;
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+}
+#ipsum{
+    padding: 0%;
+    height: 2%;
+    margin: 5%;
+}
+#storage{
+    background-color: rgb(87, 87, 255);
+    color: white;
+}
+.last{
+    /* background-color: black; */
+    /* color: white; */
+}
+.white{
+    font-size: 18px;
+    color: rgb(6, 16, 151);
+}
+#col{
+    color: white;
+    font-size: 20px;
+}
+@media screen and (min-width: 480px){
+    body{
+        
+    }
+}
