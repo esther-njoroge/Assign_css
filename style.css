@@ -16,6 +16,19 @@
 #move{
     display: flex;
     gap: 90px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#services{
+    margin-left: 20%;
+    width: 70%;
+}
+.box{
+    position: relative;
+}
+.playb{
+    position: absolute;
+    
 }
 #list{
     display: flex;
@@ -24,13 +37,26 @@
 #clip{
     display: flex;
     gap: 30%;
+    margin: 5%;
 }
 .container{
     position: relative;
+    border: solid 4px;
+    border: solid 5px blue;
 }
 .word{
     position: absolute;
-    top: 30%;
+    top: 15%;
+    border: solid 1px;
+    background-color: white;
+}
+.online{
+    margin-left: 20%;
+    margin-top: 4%;
+
+}
+#request{
+    margin: 5%;
 }
 .par{
     bottom: 30%;
@@ -41,7 +67,7 @@
 }
 .forms{
     display: flex;
-    gap: 10%;
+    gap: 2%;
 }
 #quotes{
     display: flex;
@@ -71,12 +97,12 @@
 }
 .heading{
     font-size: 40px;
-    color: white;
+    color: black;
 }
 #book{
     /* border: solid 1px; */
     background-color: orange;
-    width: 20%;
+    width: 28%;
     height: 180px;
 
 }
@@ -88,6 +114,7 @@
     background-color: orange;
     color: white;
     padding: 10px;
+    margin-left: 40%;
 
 }
 #logo{
@@ -108,6 +135,7 @@
 .last{
     /* background-color: black; */
     /* color: white; */
+    margin-left: 40%;
 }
 .white{
     font-size: 18px;
@@ -117,8 +145,30 @@
     color: white;
     font-size: 20px;
 }
-@media screen and (min-width: 480px){
-    body{
-        
-    }
+
+
+
+#news{
+    display: flex;
+    gap: 20%;
+    margin-left: 28%;
 }
+.news{
+    align-items: center;
+    /* margin: 2%; */
+    margin-left: 40%;
+}
+
+
+@media (min-width: 500px) {
+    p{
+        font-size: 1.25rem;
+    }
+    
+}
+
+
+
+
+    
+
